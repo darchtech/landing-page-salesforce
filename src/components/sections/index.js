@@ -1,0 +1,9 @@
+export { default as HeroSection } from "./HeroSection";
+export { default as CountdownSection } from "./CountdownSection";
+export { default as ValueSection } from "./ValueSection";
+export { default as CertificateSection } from "./CertificateSection";
+export { default as MentorSection } from "./MentorSection";
+export { default as AboutSection } from "./AboutSection";
+export { default as CoursesSection } from "./CoursesSection";
+export { default as AudienceSection } from "./AudienceSection";
+export { default as FinalCTASection } from "./FinalCTASection";
