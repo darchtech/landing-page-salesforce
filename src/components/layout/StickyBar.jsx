@@ -21,7 +21,7 @@ export default function StickyBar() {
               Salesforce Career Accelerator
             </p>
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              Limited seats · Starts 5th April 2026
+              Limited seats · Starts 12th April 2026
             </p>
           </div>
           <CTAButton size="md" className="w-full sm:w-auto">

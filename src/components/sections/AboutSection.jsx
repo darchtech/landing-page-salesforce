@@ -6,7 +6,7 @@ export default function AboutSection() {
   return (
     <Section>
       <SectionTitle
-        badge="🏢 Training Partner"
+        badge="Training Partner"
         title="About Orange iTech"
         subtitle="Empowering careers through practical, industry-relevant training"
       />
@@ -19,7 +19,7 @@ export default function AboutSection() {
               <img
                 src={founderImage}
                 alt="Orange iTech Founder"
-                className="w-full h-full object-cover"
+                className="w-full object-cover"
               />
               {/* Gradient overlay for text readability */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />

@@ -16,7 +16,7 @@ export const PRICE = {
   original: "₹1,999",
 };
 
-export const COUNTDOWN_TARGET = new Date("2026-04-05T10:00:00+05:30");
+export const COUNTDOWN_TARGET = new Date("2026-04-12T10:00:00+05:30");
 
 export const NAV_LINKS = [
   { label: "Masterclass", href: "#hero" },

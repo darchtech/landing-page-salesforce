@@ -1,10 +1,10 @@
 import { PRICE, HERO_HIGHLIGHTS } from "../../constants";
 import { Section, FadeIn, CTAButton, Icons } from "../ui";
-import heroVideo from "../../assets/videos/video.MOV";
+import heroVideo from "../../assets/videos/video.mp4";
 
 export default function HeroSection() {
   return (
-    <Section id="hero" className="pt-32 md:pt-20 pb-12 md:pb-16">
+    <Section id="hero" className="pt-32 md:pt-32 pb-12 md:pb-16">
       {/* Ambient background blobs */}
       <div
         className="absolute inset-0 overflow-hidden pointer-events-none"
@@ -21,7 +21,7 @@ export default function HeroSection() {
           <FadeIn>
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold bg-blue-100 dark:bg-blue-500/15 text-blue-700 dark:text-blue-400 mb-6 border border-blue-200/50 dark:border-blue-500/20">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              Live Masterclass · 5th April 2026
+              Live Masterclass · 12th April 2026
             </span>
           </FadeIn>
 
@@ -104,7 +104,7 @@ export default function HeroSection() {
                 muted
                 loop
                 playsInline
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
 
               {/* 🔹 Grid Overlay */}

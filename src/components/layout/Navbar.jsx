@@ -25,8 +25,8 @@ export default function Navbar({ dark, toggleDark }) {
             Cloud
             <span className="text-blue-600 dark:text-blue-400">Gyani</span>
           </span> */}
-        <div className="p-2 rounded-[50%] bg-white">
-          <img src={logo} alt="Orange Itect" className="h-12 w-auto object-contain rounded-md" />
+        <div className="p-3 rounded-[50%] bg-white">
+          <img src={logo} alt="Orange Itect" className="h-16 w-auto object-contain rounded-md" />
         </div>
         </a>
 

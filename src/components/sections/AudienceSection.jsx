@@ -7,7 +7,7 @@ export default function AudienceSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-blue-50/40 dark:from-blue-950/20 to-transparent pointer-events-none" />
 
       <SectionTitle
-        badge="👥 Who Is This For?"
+        badge="Who Is This For?"
         title="Built for Ambitious Professionals"
         subtitle="Whether you're starting fresh or switching lanes — this is for you"
       />

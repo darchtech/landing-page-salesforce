@@ -15,6 +15,7 @@ import {
   AudienceSection,
   FinalCTASection,
 } from "./components/sections";
+import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   const { dark, toggleDark } = useDarkMode();
@@ -22,26 +23,28 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-white transition-colors duration-300">
       {/* Global layout */}
-      <Navbar dark={dark} toggleDark={toggleDark} />
+      <BrowserRouter>
+        <Navbar dark={dark} toggleDark={toggleDark} />
 
-      {/* Page sections */}
-      <main>
-        <HeroSection />
-        <CountdownSection />
-        <ValueSection />
-        <CertificateSection />
-        <MentorSection />
-        <AboutSection />
-        <CoursesSection />
-        <AudienceSection />
-        <FinalCTASection />
-      </main>
+        {/* Page sections */}
+        <main>
+          <HeroSection />
+          <MentorSection />
+          <CountdownSection />
+          <ValueSection />
+          <CertificateSection />
+          <AboutSection />
+          <CoursesSection />
+          <AudienceSection />
+          <FinalCTASection />
+        </main>
 
-      <Footer />
+        <Footer />
 
-      {/* Persistent UI overlays */}
-      <StickyBar />
-      <ScrollToTop />
+        {/* Persistent UI overlays */}
+        <StickyBar />
+        <ScrollToTop />
+      </BrowserRouter>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function CertificateSection() {
     <Section id="certificate">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 dark:from-blue-950/20 via-transparent to-indigo-50/30 dark:to-indigo-950/10 pointer-events-none" />
 
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="grid lg:grid-cols-2 gap-12 items-center p-5 rounded-[20px]">
         {/* Left: Certificate visual */}
         <FadeIn direction="right">
           <div className="relative group">

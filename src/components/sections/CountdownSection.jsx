@@ -32,7 +32,7 @@ export default function CountdownSection() {
             Masterclass Starts In
           </h2>
           <p className="text-gray-500 dark:text-gray-400 mb-8">
-            5th April 2026, 10:00 AM IST
+            12th April 2026, 10:00 AM IST
           </p>
 
           {/* Timer digits */}
