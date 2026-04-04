@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 import { Section, SectionTitle, FadeIn, GlassCard } from "../ui";
 
 const COURSES = [
   { title: "Java Fullstack Development", path: "https://orangeitech.com/courses/java-fullstack-development", color: "rose", tags: ["Java", "Spring Boot", "React", "MySQL"] },
   { title: "MERN Stack Development", path: "https://orangeitech.com/courses/mern-fullstack-development", color: "cyan", tags: ["MongoDB", "Express", "React", "Node.js"] },
-  { title: "Python Fullstack Development", path: "https://orangeitech.com/courses/python-fullstack-development", color: "amberamber", tags: ["Python", "Django", "React", "PostgreSQL"] },
+  { title: "Python Fullstack Development", path: "https://orangeitech.com/courses/python-fullstack-development", color: "amber", tags: ["Python", "Django", "React", "PostgreSQL"] },
   { title: "Data Science & AI", path: "https://orangeitech.com/courses/data-science-ai", color: "purple", tags: ["Python", "ML", "Deep Learning", "NLP"] },
   { title: "MEAN Stack Development", path: "https://orangeitech.com/courses/mean-fullstack-development", color: "emerald", tags: ["MongoDB", "Express", "Angular", "Node.js"] },
   { title: ".NET Fullstack Development", path: "https://orangeitech.com/courses/dotnet-fullstack-development", color: "violet", tags: ["C#", "ASP.NET", "Angular", "SQL Server"] },
